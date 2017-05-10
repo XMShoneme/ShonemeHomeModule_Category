@@ -9,6 +9,8 @@
 #import "XMCTMediator+HomeModuleAction.h"
 
 NSString * const kCTMediatorTargetHomeMain = @"HomeMain";
+NSString * const kCTMediatorActionViewControllerWithDic = @"viewControllerWithDic";
+
 
 
 @implementation XMCTMediator (HomeModuleAction)
@@ -16,7 +18,7 @@ NSString * const kCTMediatorTargetHomeMain = @"HomeMain";
 - (UIViewController *)CTMediator_HomeMainViewControllerWithDic:(NSDictionary *)params
 {
     UIViewController *viewController = [self performTarget:kCTMediatorTargetHomeMain
-                                                     action:@"viewController"
+                                                     action:kCTMediatorActionViewControllerWithDic
                                                      params:params
                                           shouldCacheTarget:NO];
     
