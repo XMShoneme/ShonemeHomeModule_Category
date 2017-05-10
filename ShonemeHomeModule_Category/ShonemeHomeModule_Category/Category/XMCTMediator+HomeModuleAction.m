@@ -8,9 +8,8 @@
 
 #import "XMCTMediator+HomeModuleAction.h"
 
-NSString * const kCTMediatorTargetHomeMain = @"HomeMain";
-NSString * const kCTMediatorActionViewControllerWithDic = @"viewControllerWithDic";
-
+NSString * const kCTMediatorTargetHomeMain = @"HomeMain"; //target_xxx 文件的后缀名
+NSString * const kCTMediatorActionViewControllerWithDic = @"viewControllerWithDic"; //target_xxx文件中Action方法的后缀名
 
 
 @implementation XMCTMediator (HomeModuleAction)
