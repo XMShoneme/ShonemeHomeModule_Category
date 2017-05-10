@@ -11,6 +11,6 @@
 
 @interface XMCTMediator (HomeModuleAction)
 
-- (UIViewController *)CTMediator_viewControllerForDetail;
+- (UIViewController *)CTMediator_HomeMain_viewController;
 
 @end

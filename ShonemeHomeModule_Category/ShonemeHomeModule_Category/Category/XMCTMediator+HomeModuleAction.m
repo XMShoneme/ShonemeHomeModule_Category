@@ -10,7 +10,7 @@
 
 @implementation XMCTMediator (HomeModuleAction)
 
-- (UIViewController *)CTMediator_viewControllerForDetail
+- (UIViewController *)CTMediator_HomeMain_viewController
 {
     return [self performTarget:@"HomeMain" action:@"viewController" params:nil shouldCacheTarget:NO];
 }
